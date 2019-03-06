@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NoPlanetB</string>
+    <string name="title_activity_blogin">BLogin</string>
+    <string name="title_activity_bmain">BMain</string>
+</resources>
