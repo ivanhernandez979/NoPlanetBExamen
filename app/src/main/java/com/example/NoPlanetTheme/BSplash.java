@@ -10,14 +10,23 @@ import android.widget.TextView;
 
 public class BSplash extends AppCompatActivity {
 protected TextView tv_arriba;
+TextView tx;
   @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bsplash);
-     openApp(true);
-     // TextView tx = (TextView)findViewById(R.id.tv_arriba);
+     // Typeface face=Typeface.createFromAsset(getAssets(),"fonts/bromello.otf");
+      //txtV.setTypeface(face);
 
-     // Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/abc.ttf");
+      setContentView(R.layout.activity_bsplash);
+     openApp(true);
+
+   //  TextView tx = (TextView)findViewById(R.id.tv_arriba);
+
+    // Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/abc.ttf");
+    //  TV=(TextView)findViewById(R.id.tv_arriba);
+    //  String font_path="fonts/bromello.ttf";
+   //   Typeface TF = Typeface.createFromAsset(getAssets(), font_path);
+    //  TV.setTypeface(TF);
 
       //tx.setTypeface(custom_font);
 
@@ -71,7 +80,6 @@ protected TextView tv_arriba;
             }
         }, 3000);
     }
-
 
 }
 
